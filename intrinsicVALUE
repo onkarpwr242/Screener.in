@@ -1,0 +1,12 @@
+int i=0;
+if 50 Day EMA> 100 Day EMA, i++;
+if ROE> 20, i++;
+if ROIC> 25, i++;
+if Net profit growth last three years> 20, i++;
+if Revenue growth last three years> 15, i++;
+if interest coverage ratio> 4, i++;
+if NPM current year> Average NPM last three years, i++;
+if Equity capital this year == Equity capital last year, i++;
+if P/E ratio< Industry P/E ratio, i++;
+if Promoter holding> 51%, i++;
+print(i);
